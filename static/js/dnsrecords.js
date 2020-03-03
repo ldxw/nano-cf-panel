@@ -74,7 +74,7 @@ $(".ico_loading").show();
               });
          },1500);
          }else if(data[0].status=='not_login'){
-               setTimeout(function(){window.location.replace("manage/")},"200");
+               setTimeout(function(){window.location.replace("manage/b")},"200");
          }else{
               swal("Wrong",data[0].message,"error");
          }
@@ -211,7 +211,7 @@ $(document).ready(function(){
               });
          },1500);
          }else if(data[0].status=='not_login'){
-               setTimeout(function(){window.location.replace("manage/")},"200");
+               setTimeout(function(){window.location.replace("manage/b")},"200");
          }else if(data[0].status=='no_records'){
                         $("#pnProductNav").css('display','block');
                         $(".zone_cards").css('display','none');
@@ -551,7 +551,7 @@ $("#table_body").on("click",".add_proxy",function(){
                                    parent.html(y);
                                    $(".ico_loading").hide();
                                 }else if(data[0].status=="not_login"){
-                                   setTimeout(function(){window.location.replace("manage/")},"200");
+                                   setTimeout(function(){window.location.replace("manage/b")},"200");
                                 }else{
                                       swal("Wrong",data[0].message,"error");
                                       parent.html(n);
