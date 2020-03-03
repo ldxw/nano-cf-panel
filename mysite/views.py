@@ -24,7 +24,7 @@ def is_login(request):
         if not request.session.get('is_login', False):
             return render(request, 'index.html')
         #cookiess = request.COOKIES.get('sessionid')
-        return redirect('manage/')
+        return redirect('manage/b')
         #return HttpResponse('success')
     except:
         return render(request, 'index.html')
