@@ -21,7 +21,7 @@ from django.contrib import admin
 app_name='manage'
 
 urlpatterns = [
-    url(r'^$',domain_get_first),
+    url(r'^b',domain_get_first),
     url(r'^add_cname',add_cname),
     url(r'^dns_records',domain_records_list),
     url(r'^proxied_set',record_set),

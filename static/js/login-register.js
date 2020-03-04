@@ -75,7 +75,7 @@ function click_login(){
             if(data.result=='success'){
                 div1.style.display = 'none';
                 divban.style.display= 'none';
-                setTimeout(function(){window.location.replace("manage/")},"200");
+                setTimeout(function(){window.location.replace("manage/b")},"200");
             }else if(data.result=="error"){
                 div1.style.display = 'none';
                 divban.style.display= 'none';
@@ -131,7 +131,7 @@ function click_register(){
             if(data.result=="success"){
                 div1.style.display = 'none';
                 divban.style.display= 'none';
-                setTimeout(function(){window.location.replace("manage/")},"200");
+                setTimeout(function(){window.location.replace("manage/b")},"200");
             }else if(data.result=="error"){
                 div1.style.display = 'none';
                 divban.style.display= 'none';

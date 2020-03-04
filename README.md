@@ -92,7 +92,7 @@ pip3 install -r requestment.txt
 http = 0.0.0.0:80 #端口
 chdir = PATH/nano-cf-panel #项目根目录
 wsgi-file=mysite/wsgi.py  #wsgi配置文件
-processes = 4
+processes = 1#(后端缓存方式，进程暂时为1进程）
 threads = 2
 static-map=/static=static  #静态资源路径“static-map=/static”为配置变量
 ```
